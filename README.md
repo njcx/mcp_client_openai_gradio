@@ -13,4 +13,5 @@ MCP-Server配置：
     修改config.json, 支持stdio 和sse两种。
 
 LLM配置：
+
     修改.env文件， 支持所有 OpenAI API 格式的API， 需要支持 Function Call（工具调用）。
