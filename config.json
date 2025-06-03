@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "docker-mcp": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": [
+        "docker-mcp"
+      ]
+    },
+    "time": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": ["mcp-server-time", "--local-timezone=Asia/Shanghai"]
+    },
+    "weather": {
+      "type": "sse",
+      "url": "http://127.0.0.1:8001/sse"
+    }
+  }
+}
